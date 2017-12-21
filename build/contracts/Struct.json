@@ -1,0 +1,143 @@
+{
+  "contractName": "Struct",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a7230582060d221f1714872da95b127edf745d7984b696285721cc68aaeaf64043f4c16240029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582060d221f1714872da95b127edf745d7984b696285721cc68aaeaf64043f4c16240029",
+  "sourceMap": "69:91:27:-;;;116:42;;;;;;;;69:91;;;;;;",
+  "deployedSourceMap": "69:91:27:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\n/**\n * Demonstrates the use of struct\n **/\n\ncontract Struct {\n\n  struct Country {\n\n  }\n\n\n  function Struct() {\n    // constructor\n  }\n}\n",
+  "sourcePath": "/home/vagrant/SravzNew/Sravz.BlockChain/contracts/Struct.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/vagrant/SravzNew/Sravz.BlockChain/contracts/Struct.sol",
+      "exportedSymbols": {
+        "Struct": [
+          3049
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".4"
+          ]
+        },
+        "id": 3043,
+        "name": "PragmaDirective",
+        "src": "0:23:27"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": "Demonstrates the use of struct*",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3049
+          ],
+          "name": "Struct",
+          "scope": 3050
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "Struct.Country",
+              "members": [
+                null
+              ],
+              "name": "Country",
+              "scope": 3049,
+              "visibility": "public"
+            },
+            "id": 3044,
+            "name": "StructDefinition",
+            "src": "90:21:27"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "Struct",
+              "payable": false,
+              "scope": 3049,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3045,
+                "name": "ParameterList",
+                "src": "131:2:27"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3046,
+                "name": "ParameterList",
+                "src": "134:0:27"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3047,
+                "name": "Block",
+                "src": "134:24:27"
+              }
+            ],
+            "id": 3048,
+            "name": "FunctionDefinition",
+            "src": "116:42:27"
+          }
+        ],
+        "id": 3049,
+        "name": "ContractDefinition",
+        "src": "69:91:27"
+      }
+    ],
+    "id": 3050,
+    "name": "SourceUnit",
+    "src": "0:161:27"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-12-18T20:54:57.612Z"
+}
