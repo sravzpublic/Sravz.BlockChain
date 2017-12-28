@@ -1,4 +1,4 @@
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.18;
 
 /**
  * Part of a course on Blockchain
