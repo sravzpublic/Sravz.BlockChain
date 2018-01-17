@@ -4,7 +4,7 @@ module.exports = {
       host: "localhost",
       port: 9545,
       network_id: "*", // Match any network id
-	  from: "0x627306090abab3a6e1400e9345bc60c78a8bef57"
+	  from: "0x95522d59AC7f82D411A527b9D76Ab6f81fd70df2" 
     }
   }
 };
