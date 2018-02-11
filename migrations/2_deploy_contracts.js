@@ -37,7 +37,9 @@ module.exports = function(deployer) {
   deployer.deploy(ConstantsPayable);
 
   deployer.deploy(Modifiers);
-  deployer.deploy(Events);
+  deployer.deploy(Events ,{
+	    gas: 2000000}
+  );
 
   
   // Simple storage
